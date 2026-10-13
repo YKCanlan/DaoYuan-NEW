@@ -1,0 +1,41 @@
+# Flutter / Dart
+apps/desktop/.dart_tool/
+apps/desktop/.flutter-plugins
+apps/desktop/.flutter-plugins-dependencies
+apps/desktop/build/
+apps/desktop/.packages
+apps/desktop/pubspec.lock
+apps/desktop/windows/flutter/ephemeral/
+apps/desktop/linux/flutter/ephemeral/
+apps/desktop/macos/Flutter/ephemeral/
+
+# Node
+node_modules/
+# Personal project outside this repository
+/projects/daoyuan-diary/
+/extensions/daoyuan-diary/
+/vendor/shujuku-new/
+/resources/diary-import/
+
+# SillyTavern checkout (cloned by npm run setup)
+/resources/sillytavern/
+
+# Runtime & user data
+/runtime/
+/.smoke/
+
+# Logs / local state
+*.log
+/.daoyuan/
+/.flutter/
+
+# IDE / tooling
+.idea/
+.vscode/
+*.user
+.codegraph/
+.trellis/.runtime/
+
+# Old Rust leftovers (must not return)
+/target
+**/*.rs.bk

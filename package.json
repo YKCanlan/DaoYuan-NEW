@@ -1,0 +1,19 @@
+{
+  "name": "daoyuan-new",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "道渊 · Flutter 外壳 + SillyTavern 原生内核",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "node scripts/setup-tavern.mjs",
+    "extensions": "node scripts/ensure-builtin-extensions.mjs",
+    "dev:host": "node scripts/start-tavern.mjs",
+    "dev:ui": "flutter -C apps/desktop run -d windows",
+    "build:portable": "node scripts/build-portable.mjs",
+    "check:flutter": "cd apps/desktop && flutter analyze",
+    "test:flutter": "cd apps/desktop && flutter test"
+  }
+}
